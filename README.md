@@ -1,15 +1,12 @@
-# File-Sorter 🗃️
+# Auto File Sorter 🗃️
 
-This program can sort any number of files in any directory or folder of your choice into a, pre-existing or otherwise, folder by extension types (i.e. .exe, .pkg, .pdf).
-
-You can use this program to quickly and easily sort your files instantly, sifting through any number of files rapidly.
-
-You must run this program with read/write permissions for it to function.
+This program can AUTOMATICALLY sort images (.jpg, .png, .jfif, .jpeg) into an Images folder, as well as executables (.exe)
 
 ## Features:
-- Case-insensitive extension matching (i.e. 'HEIC' = 'heic')
-- No reason to add a period infront of your inputs, you can simply type 'exe' or 'pdf'.
-- Supports multiple file types at once.
-- Automatically creates target folder if it doesn’t exist.
-- Shows number of files moved.
+- Automatically watches the Downloads folder for new files
+- Sorts image files like .jpg, .jpeg, .png, and .jfif into an Images folder
+- Sorts .exe files into an Executables folder
+- Creates folders automatically if they do not already exist
+- Ignores temporary download files so unfinished downloads are not moved
+- Prints a message when a file is successfully moved
 
